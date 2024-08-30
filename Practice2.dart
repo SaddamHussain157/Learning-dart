@@ -15,10 +15,20 @@ NumberCheckWeatherNoisOddEven() {
 CheckWeatherConstorvowel() {
   print('Enter a character: ');
   String? vowel = stdin.readLineSync();
-  if (vowel == ('A','a')) {
-    print("Its a vowel: $vowel");
-  } else {
-    print('Its a consonenet');
+  if (vowel == 'A' ||
+      vowel == 'a' ||
+      vowel == 'e' ||
+      vowel == 'E' ||
+      vowel == 'i' ||
+      vowel == 'I' ||
+      vowel == 'o' ||
+      vowel == 'O' ||
+      vowel == 'u' ||
+      vowel == 'U') {
+    print('Its vowel: $vowel');
+  }
+   else {
+    print('Not a vowel: $vowel');
   }
 }
 
