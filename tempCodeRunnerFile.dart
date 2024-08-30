@@ -1,2 +1,3 @@
- print(i);
-    i++;
+void main(List<String> args) {
+  print("Hello");
+}
