@@ -15,6 +15,8 @@ class QuestionPartOne {
   int frequency(String n) {
     // complete the method
     // return how times a will come in the string 
+    // example "abab" ==>  2
+    // explanation the string contains two 'a' there for return 2
     return 0;
   }
 }
