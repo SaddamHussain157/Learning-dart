@@ -78,8 +78,20 @@ sumOfNutralNO() {
   print(supposeNumber);
 }
 
+// Q6 Write a dart program to generate multiplication tables of 5
+printAnyTable() {
+  print('Enter the Table that u want to print: ');
+  int table2 = 5;
+  int? table = int.tryParse(stdin.readLineSync()!);
+  for (var i = 1; i <= 10; i++) {
+    table2 *= i;
+    print('$table x $i = $table2');
+  }
+}
+
 void main(List<String> args) {
-  sumOfNutralNO();
+  printAnyTable();
+  // sumOfNutralNO();
   // PrintName100Times();
   // checkingNumberWeatherZeroPosNeg();
   // CheckWeatherConstorvowel();
