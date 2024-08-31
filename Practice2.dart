@@ -85,7 +85,8 @@ printAnyTable() {
   // int? table = int.tryParse(stdin.readLineSync()!);
   int table = 5;
   for (var i = 1; i <= 10; i++) {
-    table2 *= i;
+    // table2 *= i;
+    table2 = table * i;
     print('$table x $i = $table2');
   }
 }
