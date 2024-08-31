@@ -82,7 +82,8 @@ sumOfNutralNO() {
 printAnyTable() {
   print('Enter the Table that u want to print: ');
   int table2 = 5;
-  int? table = int.tryParse(stdin.readLineSync()!);
+  // int? table = int.tryParse(stdin.readLineSync()!);
+  int table = 5;
   for (var i = 1; i <= 10; i++) {
     table2 *= i;
     print('$table x $i = $table2');
